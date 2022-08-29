@@ -7,4 +7,8 @@ public class Book extends Product {
     super(price, id, name);
     this.genre = genre;
   }
+
+  public String getGenre() {
+    return genre;
+  }
 }

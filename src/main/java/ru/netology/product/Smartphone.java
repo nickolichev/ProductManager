@@ -7,4 +7,8 @@ public class Smartphone extends Product {
     super(price, id, name);
     this.model = model;
   }
+
+  public String getModel() {
+    return model;
+  }
 }
